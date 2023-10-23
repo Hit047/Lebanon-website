@@ -1,0 +1,637 @@
+/* @font-face {
+  font-family: neon;
+  src: url(fonts/TiltNeon-Regular-VariableFont_XROT\YROT.ttf);
+} */
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500,300,700);
+
+:root {
+  --gradient-primary: linear-gradient(to top left, #acdac9, #e3fccd);
+}
+
+body {
+  background-color: rgb(243, 231, 217);
+  margin: 0;
+}
+
+section {
+  text-align: center;
+  font-size: 22px;
+  margin-top: 100px;
+
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.footer-distributed {
+  background-size: cover;
+  margin-top: 100px;
+  background-color: #323232;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+  box-sizing: border-box;
+  width: 100%;
+  text-align: left;
+  font: normal 16px sans-serif;
+  padding: 45px 50px;
+}
+
+.footer-distributed .footer-left p {
+  color: #8f9296;
+  font-size: 14px;
+  margin: 0;
+}
+/* Footer links */
+
+.footer-distributed p.footer-links {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0 0 10px;
+  padding: 0;
+  transition: ease 0.25s;
+}
+
+.footer-distributed p.footer-links a {
+  display: inline-block;
+  line-height: 1.8;
+  text-decoration: none;
+  color: inherit;
+  transition: ease 0.25s;
+}
+
+.footer-distributed .footer-links a:before {
+  content: "·";
+  font-size: 20px;
+  left: 0;
+  color: #fff;
+  display: inline-block;
+  padding-right: 5px;
+}
+
+.footer-distributed .footer-links .link-1:before {
+  content: none;
+}
+
+.footer-distributed .footer-right {
+  float: right;
+  margin-top: 6px;
+  max-width: 180px;
+}
+
+.footer-distributed .footer-right a {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+  background-color: #33383b;
+  border-radius: 2px;
+  font-size: 20px;
+  color: #ffffff;
+  text-align: center;
+  line-height: 35px;
+  margin-left: 3px;
+  transition: all 0.25s;
+}
+
+.footer-distributed .footer-right a:hover {
+  transform: scale(1.1);
+  -webkit-transform: scale(1.1);
+}
+
+.footer-distributed p.footer-links a:hover {
+  text-decoration: underline;
+}
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+  .footer-distributed .footer-left,
+  .footer-distributed .footer-right {
+    text-align: center;
+  }
+  .footer-distributed .footer-right {
+    float: none;
+    margin: 0 auto 20px;
+  }
+  .footer-distributed .footer-left p.footer-links {
+    line-height: 1.8;
+  }
+}
+
+#he {
+  background-image: url(images/hr6.jpg);
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Rammetto One", cursive;
+  color: rgb(193, 184, 184);
+  font-style: italic;
+
+  font-size: 40px;
+  text-shadow: 10px 5px 20px black;
+}
+
+#s1 {
+  text-align: center;
+  margin-top: 40px;
+  font-weight: bold;
+
+  font-family: "Rammetto One", cursive;
+  color: rgb(32, 27, 27);
+
+  font-style: italic;
+
+  font-size: 18px;
+}
+
+.s3 {
+  display: inline;
+  position: relative;
+  text-align: center;
+}
+
+.rectangle {
+  width: 400px;
+  height: 360px;
+  border-radius: 55px;
+  margin-left: 200px;
+}
+
+.center1 {
+  position: relative;
+  top: 40px;
+  left: 40px;
+
+  padding-bottom: 300px;
+  padding-left: 200px;
+
+  transform: translate(-50%, -50%);
+  color: #f2eef2;
+  font-weight: bold;
+
+  font-family: "Rammetto One", cursive;
+
+  font-style: italic;
+
+  font-size: 40px;
+}
+
+.scroll {
+  margin-left: 1000px;
+}
+
+#d0 {
+  margin-top: 40px;
+}
+
+#w1 {
+  cursor: pointer;
+  z-index: -1;
+  opacity: 0.7;
+  transform: scale(1.07, 1.05) skewX(-15deg);
+  background-image: var(--gradient-primary);
+}
+
+#b0 {
+  background: none;
+  font-size: 1.7rem;
+  font-family: inherit;
+  font-weight: 500;
+  color: var(--color-primary);
+  border: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+#s4 {
+  display: inline;
+}
+#da {
+  text-align: center;
+  background-image: url(images/sh2.jpg);
+  width: 400px;
+  height: 360px;
+  border-radius: 35px;
+  margin-left: 40px;
+}
+
+.flex-container0 {
+  display: flex;
+  font-weight: bold;
+  margin-top: 20px;
+  font-weight: bold;
+
+  font-family: "Rammetto One", cursive;
+  color: rgb(32, 27, 27);
+
+  font-style: italic;
+
+  font-size: 18px;
+}
+
+.flex-container0 > div {
+  margin: 10px;
+  padding: 40px;
+  margin-top: 50px;
+  margin-left: 740px;
+  font-size: 30px;
+}
+
+.flex-container1 {
+  display: flex;
+  font-weight: bold;
+  margin-top: 100px;
+  font-family: "Rammetto One", cursive;
+  font-style: italic;
+  font-size: 40px;
+  color: rgb(215, 215, 227);
+}
+
+.flex-container1 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 40px;
+  margin-top: 50px;
+  margin-left: 140px;
+  font-size: 30px;
+}
+
+#f1 {
+  cursor: pointer;
+  background-image: url(images/shh7.jpg);
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  border-radius: 55px;
+  font-weight: bold;
+  font-family: "Rammetto One", cursive;
+  color: rgb(236, 224, 224);
+  font-style: italic;
+  font-size: 40px;
+  text-shadow: 10px 5px 20px black;
+  background-size: cover;
+}
+
+#f2 {
+  cursor: pointer;
+  background-image: url(images/shh6.jpg);
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  border-radius: 55px;
+  font-weight: bold;
+  font-family: "Rammetto One", cursive;
+  color: rgb(236, 224, 224);
+  font-style: italic;
+  font-size: 40px;
+  text-shadow: 10px 5px 20px black;
+  background-size: cover;
+}
+
+#f3 {
+  cursor: pointer;
+  background-image: url(images/shh5.jpg);
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  border-radius: 55px;
+  font-weight: bold;
+  font-family: "Rammetto One", cursive;
+  color: rgb(236, 224, 224);
+  font-style: italic;
+  font-size: 40px;
+  text-shadow: 10px 1px 20px black;
+  background-size: cover;
+}
+
+.flex-container2 {
+  display: flex;
+  font-weight: bold;
+  margin-top: 40px;
+  font-family: "Rammetto One", cursive;
+  font-style: italic;
+  font-size: 40px;
+  color: rgb(215, 215, 227);
+}
+
+.flex-container2 > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 40px;
+  margin-left: 140px;
+  font-size: 30px;
+}
+
+#f4 {
+  cursor: pointer;
+  background-image: url(images/sh1.jpg);
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  border-radius: 55px;
+  font-weight: bold;
+  font-family: "Rammetto One", cursive;
+  color: rgb(236, 224, 224);
+  font-style: italic;
+  font-size: 40px;
+  text-shadow: 10px 5px 20px black;
+  background-size: cover;
+}
+
+#f5 {
+  cursor: pointer;
+  background-image: url(images/g1.jpg);
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  border-radius: 55px;
+  font-weight: bold;
+  font-family: "Rammetto One", cursive;
+  color: rgb(236, 224, 224);
+  font-style: italic;
+  font-size: 40px;
+  text-shadow: 10px 5px 20px black;
+  background-size: cover;
+}
+
+#f6 {
+  cursor: pointer;
+  background-image: url(images/g2.jpg);
+  width: 300px;
+  height: 300px;
+  text-align: center;
+  border-radius: 55px;
+  font-weight: bold;
+  font-family: "Rammetto One", cursive;
+  color: rgb(236, 224, 224);
+  font-style: italic;
+  font-size: 40px;
+  text-shadow: 10px 1px 20px black;
+  background-size: cover;
+}
+
+#hr0 {
+  margin-top: 150px;
+}
+
+#hrr1 {
+  margin-top: 150px;
+}
+
+#hrr2 {
+  margin-top: 150px;
+}
+
+#hrr3 {
+  margin-top: 150px;
+}
+
+#hrr4 {
+  margin-top: 150px;
+}
+
+#hrr5 {
+  margin-top: 150px;
+}
+
+#hrr6 {
+  margin-top: 100px;
+}
+
+#hr2 {
+  margin-top: 30px;
+}
+
+.flex-container3 {
+  display: flex;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: "Rammetto One", cursive;
+  font-style: italic;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+
+.flex-container3 > div {
+  margin: 10px;
+  padding: 40px;
+  font-size: 25px;
+}
+
+#ff1 {
+  margin-top: 100px;
+  margin-left: 450px;
+  font-family: neon;
+  font-style: italic;
+  font-size: 40px;
+}
+
+.ff2 {
+  text-align: left;
+  padding-right: 400px;
+}
+
+#pl1 {
+  width: 800px;
+  height: 350px;
+  border-radius: 55px;
+  background-size: cover;
+}
+
+#pl2 {
+  width: 800px;
+  height: 300px;
+  border-radius: 55px;
+
+  background-size: cover;
+}
+
+#pl3 {
+  width: 800px;
+  height: 300px;
+  border-radius: 55px;
+
+  background-size: cover;
+}
+
+#pl4 {
+  width: 800px;
+  height: 300px;
+  border-radius: 55px;
+
+  background-size: cover;
+}
+
+#pl5 {
+  width: 800px;
+  height: 300px;
+  border-radius: 55px;
+
+  background-size: cover;
+}
+
+#pl6 {
+  width: 800px;
+  height: 300px;
+  border-radius: 55px;
+
+  background-size: cover;
+}
+
+.flex-container4 {
+  display: flex;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: "Rammetto One", cursive;
+  font-style: italic;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+
+.flex-container4 > div {
+  margin: 10px;
+  padding: 40px;
+  font-size: 25px;
+}
+
+.ff1 {
+  margin-top: 100px;
+  font-family: neon;
+  font-style: italic;
+  font-size: 40px;
+}
+
+#ff2 {
+  text-align: left;
+  padding-right: 400px;
+}
+
+.flex-container5 {
+  display: flex;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: "Rammetto One", cursive;
+  font-style: italic;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+
+.flex-container5 > div {
+  margin: 10px;
+  padding: 40px;
+  font-size: 25px;
+}
+
+.ff1 {
+  margin-top: 100px;
+  font-family: neon;
+  font-style: italic;
+  font-size: 40px;
+}
+
+#ff2 {
+  text-align: left;
+  padding-right: 400px;
+}
+
+.flex-container6 {
+  display: flex;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: "Rammetto One", cursive;
+  font-style: italic;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+
+.flex-container6 > div {
+  margin: 10px;
+  padding: 40px;
+  font-size: 25px;
+}
+
+.ff1 {
+  margin-top: 100px;
+  font-family: neon;
+  font-style: italic;
+  font-size: 40px;
+}
+
+#ff2 {
+  text-align: left;
+  padding-right: 400px;
+}
+
+.flex-container7 {
+  display: flex;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: "Rammetto One", cursive;
+  font-style: italic;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+
+.flex-container7 > div {
+  margin: 10px;
+  padding: 40px;
+  font-size: 25px;
+}
+
+.ff1 {
+  margin-top: 100px;
+  font-family: neon;
+  font-style: italic;
+  font-size: 40px;
+}
+
+#ff2 {
+  text-align: left;
+  padding-right: 400px;
+}
+
+.flex-container8 {
+  display: flex;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: "Rammetto One", cursive;
+  font-style: italic;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+}
+
+.flex-container8 > div {
+  margin: 10px;
+  padding: 40px;
+  font-size: 25px;
+}
+
+.ff1 {
+  margin-top: 100px;
+  font-family: neon;
+  font-style: italic;
+  font-size: 40px;
+}
+
+#ff2 {
+  text-align: left;
+  padding-right: 400px;
+}
+
+#section--1 {
+  font-size: 44px;
+}
+
+.section--hidden {
+  opacity: 0;
+  transform: translate(8rem);
+}
+
+.lazy-img {
+  filter: blur(20px);
+}
