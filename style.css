@@ -129,7 +129,7 @@ section {
   font-family: "Rammetto One", cursive;
   color: rgb(193, 184, 184);
   font-style: italic;
-
+  width: 100%;
   font-size: 40px;
   text-shadow: 10px 5px 20px black;
 }
@@ -222,30 +222,32 @@ section {
 
 .flex-container0 {
   display: flex;
+  flex-direction: row;
   font-weight: bold;
-  margin-top: 20px;
   font-weight: bold;
+  flex: 50%;
 
   font-family: "Rammetto One", cursive;
   color: rgb(32, 27, 27);
 
   font-style: italic;
-
-  font-size: 18px;
 }
 
 .flex-container0 > div {
   margin: 10px;
   padding: 40px;
-  margin-top: 50px;
-  margin-left: 740px;
+  text-align: center;
   font-size: 30px;
+  width: 100%;
 }
 
 .flex-container1 {
   display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
   font-weight: bold;
   margin-top: 100px;
+  flex: 50%;
   font-family: "Rammetto One", cursive;
   font-style: italic;
   font-size: 40px;
@@ -259,6 +261,13 @@ section {
   margin-top: 50px;
   margin-left: 140px;
   font-size: 30px;
+  width: 100%;
+}
+
+@media (max-width: 800px) {
+  .flex-container1 {
+    flex: 100%;
+  }
 }
 
 #f1 {
@@ -311,6 +320,7 @@ section {
 
 .flex-container2 {
   display: flex;
+  flex-wrap: wrap;
   font-weight: bold;
   margin-top: 40px;
   font-family: "Rammetto One", cursive;
@@ -410,6 +420,7 @@ section {
 .flex-container3 {
   display: flex;
   font-weight: bold;
+  flex-wrap: wrap;
   margin-top: 20px;
   font-family: "Rammetto One", cursive;
   font-style: italic;
@@ -423,9 +434,13 @@ section {
   font-size: 25px;
 }
 
+/* #ff3 {
+  flex-wrap: wrap;
+} */
+
 #ff1 {
   margin-top: 100px;
-  margin-left: 450px;
+  text-align: center;
   font-family: neon;
   font-style: italic;
   font-size: 40px;
@@ -436,56 +451,83 @@ section {
   padding-right: 400px;
 }
 
+#ff3 {
+  margin: 0 auto;
+}
+
+#ff4 {
+  margin: 0 auto;
+}
+
+#ff5 {
+  margin: 0 auto;
+}
+
+#ff6 {
+  margin: 0 auto;
+}
+
+#ff7 {
+  margin: 0 auto;
+}
+
+#ff8 {
+  margin: 0 auto;
+}
+
 #pl1 {
-  width: 800px;
+  width: 100%;
   height: 350px;
+  flex-wrap: wrap;
   border-radius: 55px;
   background-size: cover;
 }
 
 #pl2 {
-  width: 800px;
-  height: 300px;
-  border-radius: 55px;
+  width: 100%;
+  height: 550px;
 
+  flex-wrap: wrap;
+  border-radius: 55px;
   background-size: cover;
 }
 
 #pl3 {
-  width: 800px;
-  height: 300px;
+  width: 100%;
+  height: 540px;
   border-radius: 55px;
-
+  flex-wrap: wrap;
   background-size: cover;
 }
 
 #pl4 {
-  width: 800px;
-  height: 300px;
+  width: 100%;
+  height: 500px;
   border-radius: 55px;
-
+  flex-wrap: wrap;
   background-size: cover;
 }
 
 #pl5 {
-  width: 800px;
-  height: 300px;
+  width: 100%;
+  height: 500px;
   border-radius: 55px;
-
+  flex-wrap: wrap;
   background-size: cover;
 }
 
 #pl6 {
-  width: 800px;
+  width: 100%;
   height: 300px;
   border-radius: 55px;
-
+  flex-wrap: wrap;
   background-size: cover;
 }
 
 .flex-container4 {
   display: flex;
   font-weight: bold;
+  flex-wrap: wrap;
   margin-top: 20px;
   font-family: "Rammetto One", cursive;
   font-style: italic;
@@ -509,11 +551,13 @@ section {
 #ff2 {
   text-align: left;
   padding-right: 400px;
+  font-size: 10vw;
 }
 
 .flex-container5 {
   display: flex;
   font-weight: bold;
+  flex-wrap: wrap;
   margin-top: 20px;
   font-family: "Rammetto One", cursive;
   font-style: italic;
@@ -542,6 +586,7 @@ section {
 .flex-container6 {
   display: flex;
   font-weight: bold;
+  flex-wrap: wrap;
   margin-top: 20px;
   font-family: "Rammetto One", cursive;
   font-style: italic;
@@ -570,6 +615,7 @@ section {
 .flex-container7 {
   display: flex;
   font-weight: bold;
+  flex-wrap: wrap;
   margin-top: 20px;
   font-family: "Rammetto One", cursive;
   font-style: italic;
@@ -598,6 +644,7 @@ section {
 .flex-container8 {
   display: flex;
   font-weight: bold;
+  flex-wrap: wrap;
   margin-top: 20px;
   font-family: "Rammetto One", cursive;
   font-style: italic;
